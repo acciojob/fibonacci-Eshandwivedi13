@@ -4,7 +4,7 @@ function fibonacci(num) {
 	if(num == 0) return n1;
 	if(num == 1) return n2;
 	let n3;
-	for(int i=2; i<=n; i++){
+	for(let i=2; i<=n; i++){
 		n3 = n1+n2;
 		n1 = n2;
 		n2 = n3;
