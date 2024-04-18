@@ -1,7 +1,6 @@
 function fibonacci(num) {
-  if(num==1)	return 0;
-if(num==2) return 1;
-  return fibonacci(num - 1) + fibonacci(num - 2); // Recursive case: return sum of previous two Fibonacci numbers
+  if (num <= 2) return num - 1; // Adjusted base case
+  return fibonacci(num - 1) + fibonacci(num - 2); // Recursive case
 }
 
 module.exports = fibonacci;
